@@ -1,6 +1,7 @@
 import "./style.css"
 
 interface Card {
+    id: string
     backgroundImage: string,
     heading: string,
     backgroundColor: string,
