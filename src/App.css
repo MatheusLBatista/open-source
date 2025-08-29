@@ -8,3 +8,12 @@ main {
   background-color: #FFFFFF;
 }
 
+.card-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; 
+    gap: 24px;               
+    /* max-width: 1600px; */
+    padding: 0px 16px 16px 16px;
+}
+

@@ -1,5 +1,13 @@
 import "./style.css"
 
+interface Card {
+    backgroundImage: string,
+    heading: string,
+    backgroundColor: string,
+    paragraph: string,
+    labels: string[]
+}
+
 export default function Card() {
 
     return(

@@ -10,7 +10,13 @@ function App() {
         <Header />
         <main>
           <SearchBar />
-          <Card />
+          <div className="card-gallery">
+            <Card />
+            <Card />
+            <Card />
+            <Card />
+            <Card />
+          </div>
         </main>
       </div>
   )
