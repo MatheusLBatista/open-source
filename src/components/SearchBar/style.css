@@ -1,0 +1,25 @@
+.filter-bar > input {
+    border: none;
+    font-size: 1.05rem;
+    width: 100%;
+    height: 100%;
+    padding: 0 16px;
+    border-radius: 10px;
+    background-color: #FFFFFF;
+}
+
+.filter-bar {
+    display: inline-flex;
+    width: 45%;
+    border: 1px solid #CECECE;
+    border-radius: 10px;
+    justify-content: space-between;
+    height: 50px;
+    margin: 16px;
+}
+
+.icon {
+    display: inline-flex;
+    margin: 8px;
+    cursor: pointer;
+}
