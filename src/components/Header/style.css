@@ -1,0 +1,25 @@
+header {
+    background-image: url(./banner.jpg);
+    background-size: cover;
+    height: 380px;
+}
+
+.info-text {
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    width: 100%;
+    line-height: 380px;
+    background: linear-gradient(
+        135deg,
+        rgba(182, 213, 255, 0.2) 0%,
+        rgba(182, 213, 255, 0.35) 50%,
+        rgba(182, 213, 255, 0.5) 100%
+    );
+}
+
+.info-text > h1 {
+    font-weight: 400;
+    font-size: 112px;
+    color: #1F2D40;
+}
