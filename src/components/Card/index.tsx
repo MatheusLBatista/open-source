@@ -1,6 +1,6 @@
 import "./style.css"
 
-interface Card {
+interface CardProps {
     backgroundImage: string,
     heading: string,
     backgroundColor: string,
@@ -8,7 +8,7 @@ interface Card {
     labels: string[]
 }
 
-export default function Card({backgroundImage, heading, backgroundColor, paragraph, labels}: Card){
+export default function Card({backgroundImage, heading, backgroundColor, paragraph, labels}: CardProps){
 
     return(
         <div className="card">
@@ -25,9 +25,11 @@ export default function Card({backgroundImage, heading, backgroundColor, paragra
                 </div>
                 <div className="card-label">
                     <div className="labels">
-                        <div className="label">
-                            <p>{labels}</p>
-                        </div>
+                        {labels.map((label, index) => (
+                            <div className="label">
+                                <p key={index}>{label}</p>
+                            </div>
+                        ))}
                     </div>
                     <div>
                         <button>Ver projeto</button>

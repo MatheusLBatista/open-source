@@ -21,9 +21,7 @@ function App() {
                 heading={dado.heading}
                 backgroundColor={dado.backgroundColor}
                 paragraph={dado.paragraph}
-                labels={dado.labels.map((label: any) => (
-                  <div className="label" key={dado.id}>{label}</div>
-                ))}
+                labels={dado.labels}
               />
             ))}
           </div>
