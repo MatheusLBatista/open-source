@@ -1,0 +1,66 @@
+export const dados = [
+  {
+    id: "1",
+    backgroundImage: "chrome.png",
+    heading: "Chromium",
+    backgroundColor: "#D6E9FF",
+    paragraph: "Projeto de navegador de código aberto que serve de base para o Google Chrome e outros navegadores modernos.",
+    labels: ["Java", "Web", "Java"]
+  },
+  {
+    id: "2",
+    backgroundImage: "react.png",
+    heading: "React",
+    backgroundColor: "#C2F0F9",
+    paragraph: "Biblioteca JavaScript para construir interfaces de usuário reativas, criada pelo Facebook e usada em milhares de aplicações web.",
+    labels: ["Typescript", "JSX", "Web"]
+  },
+  {
+    id: "3",
+    backgroundImage: "ubuntu.png",
+    heading: "Ubuntu",
+    backgroundColor: "#F8D0B2",
+    paragraph: "Distribuição Linux baseada em Debian, voltada para usabilidade, segurança e atualização frequente.",
+    labels: ["C", "Python", "Bash"]
+  },
+  {
+    id: "4",
+    backgroundImage: "git.png",
+    heading: "Git",
+    backgroundColor: "#F9C2C2",
+    paragraph: "Sistema de controle de versões distribuído, eficiente para rastrear mudanças em projetos de software.",
+    labels: ["C", "Shell Script", "Perl"]
+  },
+  {
+    id: "5",
+    backgroundImage: "android.png",
+    heading: "Android",
+    backgroundColor: "#C2F9D6",
+    paragraph: "Sistema operacional móvel desenvolvido pelo Google, usado em bilhões de dispositivos ao redor do mundo.",
+    labels: ["Java", "Kotlin", "C++"]
+  },
+  {
+    id: "6",
+    backgroundImage: "typescript.png",
+    heading: "Typescript",
+    backgroundColor: "#D6E9FF",
+    paragraph: "Superset do JavaScript que adiciona tipagem estática e recursos modernos para desenvolvimento robusto.",
+    labels: ["JavaScript", "Typescript", "Node"]
+  },
+  {
+    id: "7",
+    backgroundImage: "tensorflow.png",
+    heading: "Tensorflow",
+    backgroundColor: "#F9E5C2",
+    paragraph: "Biblioteca de código aberto do Google para computação numérica e aprendizado de máquina com redes neurais.",
+    labels: ["Python", "Cuda", "C++"]
+  },
+  {
+    id: "8",
+    backgroundImage: "docusaurus.png",
+    heading: "Docusaurus",
+    backgroundColor: "#C2F9D6",
+    paragraph: "Gerador de sites estáticos focado em documentação técnica, criado pelo Facebook.",
+    labels: ["JavaScript", "React", "Markdown"]
+  }
+]

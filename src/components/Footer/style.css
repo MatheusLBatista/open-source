@@ -1,0 +1,20 @@
+footer{
+    background-color: black;
+    height: 94px;
+}
+
+.logos{
+    display: flex;
+    flex-direction: row;
+    padding: 13px 0;
+    gap: 32px;
+    justify-content: space-evenly;
+}
+
+.ifro-image{
+    height: 64px;
+}
+
+.fslab-image{
+    height: 64px;
+}
