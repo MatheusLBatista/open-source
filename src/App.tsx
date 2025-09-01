@@ -1,4 +1,5 @@
 import './App.css'
+import About from './components/About'
 import Card from './components/Card'
 import Header from './components/Header'
 import SearchBar from './components/SearchBar'
@@ -17,6 +18,7 @@ function App() {
             <Card />
             <Card />
           </div>
+          <About />
         </main>
       </div>
   )
